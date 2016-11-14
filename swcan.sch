@@ -8,11 +8,12 @@ LIBS:ncv736
 LIBS:pesd1lin
 LIBS:mcp2515
 LIBS:can-pihat-cache
+LIBS:hat-design-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
