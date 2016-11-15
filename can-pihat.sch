@@ -7,13 +7,13 @@ LIBS:opto
 LIBS:ncv736
 LIBS:pesd1lin
 LIBS:mcp2515
+LIBS:tja1050
 LIBS:can-pihat-cache
-LIBS:hat-design-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date "28 mar 2015"
 Rev ""
@@ -24,7 +24,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 3100 2850 1000 1250
+S 2450 3150 1000 1250
 U 582A45F7
 F0 "swcan" 60
 F1 "swcan.sch" 60
@@ -41,7 +41,7 @@ F 3 "" H 10500 1950 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Sheet
-S 5600 2850 1000 1250
+S 6450 3100 1000 1250
 U 582A5F51
 F0 "hateeprom" 60
 F1 "hateeprom.sch" 60
@@ -252,4 +252,10 @@ Wire Wire Line
 	8650 2650 8900 2650
 Wire Wire Line
 	9700 1550 9900 1550
+$Sheet
+S 4200 3150 1000 1250
+U 582A9C05
+F0 "hscan" 60
+F1 "hscan.sch" 60
+$EndSheet
 $EndSCHEMATC

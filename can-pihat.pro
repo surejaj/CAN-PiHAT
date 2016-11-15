@@ -1,4 +1,4 @@
-update=11/14/2016 5:27:26 PM
+update=Mon 14 Nov 2016 10:52:14 PM CST
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,3 +37,4 @@ LibName5=opto
 LibName6=libraries/ncv736
 LibName7=libraries/pesd1lin
 LibName8=libraries/mcp2515
+LibName9=libraries/tja1050
