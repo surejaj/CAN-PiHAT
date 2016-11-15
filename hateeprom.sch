@@ -8,7 +8,12 @@ LIBS:ncv736
 LIBS:pesd1lin
 LIBS:mcp2515
 LIBS:tja1050
-LIBS:can-pihat-cache
+LIBS:at24cs32-mahm
+LIBS:conn_2
+LIBS:conn_20x2
+LIBS:drill
+LIBS:r
+LIBS:tst
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -23,10 +28,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	4150 3750 4150 3650
-Wire Wire Line
-	4150 3200 4150 3300
 $Comp
 L GND #PWR?
 U 1 1 582A6361
@@ -60,10 +61,6 @@ F 3 "~" H 4150 3450 60  0000 C CNN
 	1    4150 3450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6400 2950 6400 3100
-Wire Wire Line
-	6150 2950 6150 3100
 $Comp
 L +3.3V #PWR?
 U 1 1 582A6376
@@ -86,16 +83,6 @@ F 3 "" H 6150 2950 60  0000 C CNN
 	1    6150 2950
 	1    0    0    -1  
 $EndComp
-Connection ~ 6400 3700
-Wire Wire Line
-	6400 3400 6400 3700
-Connection ~ 6150 3550
-Wire Wire Line
-	6150 3400 6150 3550
-Wire Wire Line
-	5950 3700 6600 3700
-Wire Wire Line
-	5950 3550 6600 3550
 Text GLabel 6600 3550 2    60   Input ~ 0
 ID_SD
 Text GLabel 6600 3700 2    60   Input ~ 0
@@ -122,8 +109,6 @@ F 3 "~" H 6150 3250 30  0000 C CNN
 	1    6150 3250
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4750 4400 4750 4250
 $Comp
 L GND #PWR?
 U 1 1 582A6399
@@ -135,12 +120,6 @@ F 3 "" H 4750 4400 60  0000 C CNN
 	1    4750 4400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4750 4250 4850 4250
-Wire Wire Line
-	4750 4050 4850 4050
-Wire Wire Line
-	4750 3750 4750 4050
 $Comp
 L TST P?
 U 1 1 582A63A2
@@ -174,10 +153,6 @@ F 3 "" H 4400 4150 60  0000 C CNN
 	1    4400 4150
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4750 3850 5150 3850
-Wire Wire Line
-	4750 3250 4750 3450
 $Comp
 L +3.3V #PWR?
 U 1 1 582A63B9
@@ -200,8 +175,6 @@ F 3 "~" H 4750 3600 30  0000 C CNN
 	1    4750 3600
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5550 3300 5550 3200
 $Comp
 L +3.3V #PWR?
 U 1 1 582A63C7
@@ -213,8 +186,6 @@ F 3 "" H 5550 3200 60  0000 C CNN
 	1    5550 3200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5550 4150 5550 4050
 $Comp
 L GND #PWR?
 U 1 1 582A63CE
@@ -226,16 +197,6 @@ F 3 "" H 5550 4150 60  0000 C CNN
 	1    5550 4150
 	1    0    0    -1  
 $EndComp
-Connection ~ 5050 3600
-Wire Wire Line
-	5050 3500 5150 3500
-Connection ~ 5050 3700
-Wire Wire Line
-	5050 3600 5150 3600
-Wire Wire Line
-	5050 3500 5050 3700
-Wire Wire Line
-	5000 3700 5150 3700
 $Comp
 L GND #PWR?
 U 1 1 582A63DA
@@ -258,5 +219,49 @@ F 3 "" H 5550 3650 60  0000 C CNN
 	1    5550 3650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4150 3750 4150 3650
+Wire Wire Line
+	4150 3200 4150 3300
+Wire Wire Line
+	6400 2950 6400 3100
+Wire Wire Line
+	6150 2950 6150 3100
+Connection ~ 6400 3700
+Wire Wire Line
+	6400 3400 6400 3700
+Connection ~ 6150 3550
+Wire Wire Line
+	6150 3400 6150 3550
+Wire Wire Line
+	5950 3700 6600 3700
+Wire Wire Line
+	5950 3550 6600 3550
+Wire Wire Line
+	4750 4400 4750 4250
+Wire Wire Line
+	4750 4250 4850 4250
+Wire Wire Line
+	4750 4050 4850 4050
+Wire Wire Line
+	4750 3750 4750 4050
+Wire Wire Line
+	4750 3850 5150 3850
+Wire Wire Line
+	4750 3250 4750 3450
+Wire Wire Line
+	5550 3300 5550 3200
+Wire Wire Line
+	5550 4150 5550 4050
+Connection ~ 5050 3600
+Wire Wire Line
+	5050 3500 5150 3500
+Connection ~ 5050 3700
+Wire Wire Line
+	5050 3600 5150 3600
+Wire Wire Line
+	5050 3500 5050 3700
+Wire Wire Line
+	5000 3700 5150 3700
 Connection ~ 4750 3850
 $EndSCHEMATC

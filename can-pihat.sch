@@ -8,7 +8,12 @@ LIBS:ncv736
 LIBS:pesd1lin
 LIBS:mcp2515
 LIBS:tja1050
-LIBS:can-pihat-cache
+LIBS:at24cs32-mahm
+LIBS:conn_2
+LIBS:conn_20x2
+LIBS:drill
+LIBS:r
+LIBS:tst
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -41,13 +46,13 @@ F 3 "" H 10500 1950 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Sheet
-S 6450 3100 1000 1250
+S 8800 3900 1000 1250
 U 582A5F51
 F0 "hateeprom" 60
 F1 "hateeprom.sch" 60
 $EndSheet
 $Comp
-L GND-RESCUE-hat-design #PWR?
+L GND #PWR?
 U 1 1 582A970D
 P 8000 1750
 F 0 "#PWR?" H 8000 1750 30  0001 C CNN
@@ -58,7 +63,7 @@ F 3 "" H 8000 1750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND-RESCUE-hat-design #PWR?
+L GND #PWR?
 U 1 1 582A970E
 P 9900 1550
 F 0 "#PWR?" H 9900 1550 30  0001 C CNN
@@ -69,7 +74,7 @@ F 3 "" H 9900 1550 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V-RESCUE-hat-design #PWR?
+L +3.3V #PWR?
 U 1 1 582A970F
 P 8750 1100
 F 0 "#PWR?" H 8750 1060 30  0001 C CNN
@@ -88,7 +93,7 @@ Wire Wire Line
 Wire Wire Line
 	8750 1100 8750 1350
 $Comp
-L GND-RESCUE-hat-design #PWR?
+L GND #PWR?
 U 1 1 582A9710
 P 8800 2550
 F 0 "#PWR?" H 8800 2550 30  0001 C CNN
@@ -99,7 +104,7 @@ F 3 "" H 8800 2550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND-RESCUE-hat-design #PWR?
+L GND #PWR?
 U 1 1 582A9711
 P 9800 2250
 F 0 "#PWR?" H 9800 2250 30  0001 C CNN
@@ -123,7 +128,7 @@ F 3 "" H 9300 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-hat-design #PWR?
+L GND #PWR?
 U 1 1 582A9713
 P 10500 1950
 F 0 "#PWR?" H 10500 1950 30  0001 C CNN
@@ -136,7 +141,7 @@ $EndComp
 Wire Wire Line
 	8900 2550 8800 2550
 $Comp
-L +3.3V-RESCUE-hat-design #PWR?
+L +3.3V #PWR?
 U 1 1 582A9714
 P 8800 2150
 F 0 "#PWR?" H 8800 2110 30  0001 C CNN
@@ -155,7 +160,7 @@ ID_SC
 Wire Wire Line
 	9700 2650 10000 2650
 $Comp
-L GND-RESCUE-hat-design #PWR?
+L GND #PWR?
 U 1 1 582A9715
 P 9900 2750
 F 0 "#PWR?" H 9900 2750 30  0001 C CNN
@@ -166,7 +171,7 @@ F 3 "" H 9900 2750 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND-RESCUE-hat-design #PWR?
+L GND #PWR?
 U 1 1 582A9716
 P 9900 2950
 F 0 "#PWR?" H 9900 2950 30  0001 C CNN
@@ -177,7 +182,7 @@ F 3 "" H 9900 2950 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND-RESCUE-hat-design #PWR?
+L GND #PWR?
 U 1 1 582A9717
 P 8800 3250
 F 0 "#PWR?" H 8800 3250 30  0001 C CNN

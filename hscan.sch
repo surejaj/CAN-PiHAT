@@ -8,7 +8,12 @@ LIBS:ncv736
 LIBS:pesd1lin
 LIBS:mcp2515
 LIBS:tja1050
-LIBS:can-pihat-cache
+LIBS:at24cs32-mahm
+LIBS:conn_2
+LIBS:conn_20x2
+LIBS:drill
+LIBS:r
+LIBS:tst
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
