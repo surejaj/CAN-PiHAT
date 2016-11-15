@@ -1,0 +1,17 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# DRILL
+#
+DEF DRILL H 0 40 Y Y 1 F N
+F0 "H" -50 -300 60 H V C CNN
+F1 "DRILL" 0 -200 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 0 0 150 0 1 0 N
+X N 1 0 0 300 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
