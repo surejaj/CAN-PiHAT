@@ -1,4 +1,4 @@
-update=11/15/2016 2:18:32 PM
+update=12/12/2016 6:48:49 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -39,8 +39,9 @@ LibName7=libraries/pesd1lin
 LibName8=libraries/mcp2515
 LibName9=libraries/tja1050
 LibName10=libraries/at24cs32-mahm
-LibName11=libraries/conn_2
-LibName12=libraries/conn_20x2
-LibName13=libraries/drill
-LibName14=libraries/r
-LibName15=libraries/tst
+LibName11=libraries/txb0108
+LibName12=libraries/conn_2
+LibName13=libraries/conn_20x2
+LibName14=libraries/drill
+LibName15=libraries/r
+LibName16=libraries/tst
