@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:can-pihat-rescue
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -9,11 +10,14 @@ LIBS:pesd1lin
 LIBS:mcp2515
 LIBS:tja1050
 LIBS:at24cs32-mahm
+LIBS:txb0108
+LIBS:txb0102
 LIBS:conn_2
 LIBS:conn_20x2
 LIBS:drill
 LIBS:r
 LIBS:tst
+LIBS:can-pihat-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

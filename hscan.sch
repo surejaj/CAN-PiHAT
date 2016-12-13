@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:can-pihat-rescue
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -9,11 +10,14 @@ LIBS:pesd1lin
 LIBS:mcp2515
 LIBS:tja1050
 LIBS:at24cs32-mahm
+LIBS:txb0108
+LIBS:txb0102
 LIBS:conn_2
 LIBS:conn_20x2
 LIBS:drill
 LIBS:r
 LIBS:tst
+LIBS:can-pihat-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -384,4 +388,34 @@ F 3 "" H 6700 4200 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	6700 4450 6700 4200
+Text HLabel 2050 2050 1    60   Input ~ 0
+Vcc
+$Comp
+L +5V #PWR?
+U 1 1 58504B89
+P 2050 2500
+F 0 "#PWR?" H 2050 2350 50  0001 C CNN
+F 1 "+5V" H 2050 2640 50  0000 C CNN
+F 2 "" H 2050 2500 50  0000 C CNN
+F 3 "" H 2050 2500 50  0000 C CNN
+	1    2050 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58504B8F
+P 2350 2500
+F 0 "#PWR?" H 2350 2250 50  0001 C CNN
+F 1 "GND" H 2350 2350 50  0000 C CNN
+F 2 "" H 2350 2500 50  0000 C CNN
+F 3 "" H 2350 2500 50  0000 C CNN
+	1    2350 2500
+	1    0    0    -1  
+$EndComp
+Text HLabel 2350 2050 1    60   Input ~ 0
+GND
+Wire Wire Line
+	2350 2050 2350 2500
+Wire Wire Line
+	2050 2050 2050 2500
 $EndSCHEMATC
