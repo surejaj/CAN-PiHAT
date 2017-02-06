@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:can-pihat-rescue
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -17,7 +16,6 @@ LIBS:conn_20x2
 LIBS:drill
 LIBS:r
 LIBS:tst
-LIBS:can-pihat-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -486,7 +484,7 @@ U 1 1 582A9712
 P 2100 6550
 F 0 "P1" H 2100 7600 60  0000 C CNN
 F 1 "CONN_20X2" V 2100 6550 50  0000 C CNN
-F 2 "w_pin:pin_socket_2mm_20x2" H 2100 6550 60  0001 C CNN
+F 2 "FootPrints:PIN_ARRAY_20X2" H 2100 6550 60  0001 C CNN
 F 3 "" H 2100 6550 60  0000 C CNN
 	1    2100 6550
 	1    0    0    -1  
