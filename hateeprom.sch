@@ -16,7 +16,6 @@ LIBS:conn_20x2
 LIBS:drill
 LIBS:r
 LIBS:tst
-LIBS:can-pihat-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
